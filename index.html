@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>xiihoo - 机器人开发者社区</title>
+  <title>xiihoo-机器人开发者社区</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="keywords" content="机器人,SLAM,自动驾驶,ROS,人工智能，xiihoo，小虎哥哥爱学习，机器人SLAM导航核心技术与实战，张虎">
-  <meta name="description" content="xiihoo机器人开发者社区，致力于机器人、SLAM、自动驾驶、ROS、人工智能等技术领域的知识分享，同时也作为站长的新书《机器人SLAM导航核心技术与实战》的读者答疑互动社区。">
-  <link rel="shortcut icon" href="http://www.xiihoo.com/static/image/x.ico" type="image/x-icon">
-  <link rel="stylesheet" href="http://www.xiihoo.com/static/class.css" type="text/css">
-  <script src="http://www.xiihoo.com/static/showhide.js"></script>
+  <meta name="description" content="致力于机器人、SLAM、自动驾驶、ROS、人工智能等技术领域的知识分享">
+  <link rel="shortcut icon" href="static/image/x.ico" type="image/x-icon">
+  <link rel="stylesheet" href="static/class.css" type="text/css">
+  <script src="static/showhide.js"></script>
   <script type="text/javascript">
     //页面加载完成后触发
     window.onload = function(){
@@ -35,7 +35,7 @@
   <div id="header_container_style">
     <!-- logo图标 -->
     <div id="logo_style">
-      <a href="http://www.xiihoo.com"><img src="http://www.xiihoo.com/static/image/logo_xiihoo.png" /></a>
+      <a href="http://www.xiihoo.com"><img src="static/image/logo_xiihoo.png" /></a>
     </div>
     <!-- 菜单栏 -->
     <div id="menu_style">
@@ -58,9 +58,1641 @@
 	<!-- 正文 -->
     <div id="main_style">
     	<!-- 引入banner内容 -->
-        {% include 'banner.html' %}
-    	<!-- 引入content内容 -->
-        {% include 'content.html' %}
+        <!-- {% include 'banner.html' %} -->
+        <div id="banner_style">
+            <div style="width: 400px;display: inline-block;margin: 10px">
+                <a href="https://item.jd.com/13041503.html" target="_blank"><img src="static/image/book_front.png" width="100%" height="100%"/></a>
+            </div>
+            <div style="width: 450px;display: inline-block;margin: 10px">
+                <p style="font-size: 14px;color: #4E4E4E;margin: 0px">相比于传统的理论书籍，本书更加地偏向于形而下的实践部分。它详细介绍了一些典型的激光与视觉SLAM的实现部分，提供了源代码解读。同时，在SLAM之外，也介绍了如何在已有地图上进行导航规划的内容。本书内容详细、充实，可以作为SLAM领域研发人员、学生的良好参考材料。
+                </p>
+                <p style="font-size: 14px;color: #F00;margin: 0px 0px 5px 0px;text-align: right">——高翔，博士、智行者科技定位与地图组总监
+                </p>
+                <p style="font-size: 14px;color: #4E4E4E;margin: 0px">随着自动驾驶、机器人、AR和VR的发展，SLAM正在变得越来越重要。同时，SLAM是一项软硬结合，涉及多个学科理论并且紧密结合实际的技术。本书从多个维度，利用大量图片和表格，从浅入深讲述了机器人SLAM 导航的核心技术，并且给出了大量的实操例子。相信本书无论对于初学者还是业内人士都是一本有相当价值的好书。
+                </p>
+                <p style="font-size: 14px;color: #F00;margin: 0px 0px 5px 0px;text-align: right">——侯晓辉，亮风台首席架构师
+                </p>
+                <p style="font-size: 14px;color: #4E4E4E;margin: 0px">这是一本涵盖从机器人自主导航相关硬件到机器人操作系统、从SLAM基本原理到经典SLAM开源框架实现的百科全书式著作，内容丰富、全面，汇集了当前机器人SLAM导航所需要的基础理论，并结合硬件（如惯性器件、视觉传感器等）对SLAM导航的工程实践进行了较为全面和深入的论述，是一本内容丰富、知识全面、受众广泛、深入浅出的大部头作品，推荐阅读。
+                </p>
+                <p style="font-size: 14px;color: #F00;margin: 0px 0px 5px 0px;text-align: right">——吴中红，海军工程大学讲师，<br>《ROS机器人开发：实用案例分析》（第1版与第2版）译者
+                </p>
+                <p style="font-size: 14px;color: #4E4E4E;margin: 0px">移动机器人技术知识架构十分零散，而且各领域方法日新月异，常人想要系统学习领悟，或从中甄选出一套实用可靠的算法构建真正的机器人变得十分困难。而本书就像一个当下最佳的移动机器人技术101课程，凭借作者多年优秀的实操和创业经验，从多领域的广阔知识中抽丝剥茧，为读者整理出最核心且必要的编程、环境及算法知识的同时，与时俱进的引入了计算机视觉、概率论、强化学习等前沿科研在SLAM里的成果。不得不说适合每一位该领域的创业者或研究生放在手边，做一本在学习和搭建机器人时很实用快捷的参考书籍。
+                </p>
+                <p style="font-size: 14px;color: #F00;margin: 0px 0px 5px 0px;text-align: right">——王斯煜，香港大学机器人博士生
+                </p>
+            </div>
+        </div>
+        <!-- 引入content内容 -->
+        <!-- {% include 'content.html' %} -->
+        <div id="content_style">
+            <div style="font-size: 14px;color: #CCC;margin: 10px;text-align: center">
+                温馨提示：网站正在灰度测试中，更多精彩内容即将上线
+            </div>
+            
+            <!-- 书籍配套学习资料汇总 -->
+            <div style="margin: 20px">
+                <h4 style="text-align: center">书籍配套学习资料汇总</h4>
+                <div id="content_1" style="height: 680px; overflow-y: hidden">
+                    <ul>
+        
+                        <li>
+                            购书链接：
+                            <a href="https://item.jd.com/13041503.html" target="_blank">https://item.jd.com/13041503.html</a>
+                        </li>
+                        <li>
+                            随书源码GitHub：
+                            <a href="https://github.com/xiihoo/Books_Robot_SLAM_Navigation" target="_blank">https://github.com/xiihoo/Books_Robot_SLAM_Navigation</a>
+                        </li>
+                        <li>
+                            随书源码Gitee（访问更快）：
+                            <a href="https://gitee.com/xiihoo-robot/Books_Robot_SLAM_Navigation" target="_blank">https://gitee.com/xiihoo-robot/Books_Robot_SLAM_Navigation</a>
+                        </li>
+                        <li>
+                            <b>资料汇总下载：</b>
+                            <ul>
+                                <li>
+                                    百度网盘链接：
+                                    <a href="https://pan.baidu.com/s/1nHbI0mi-iM72NAcQlAU1uQ?pwd=1234" target="_blank">https://pan.baidu.com/s/1nHbI0mi-iM72NAcQlAU1uQ?pwd=1234</a>
+                                </li>
+                                <li>
+                                    提取码：1234
+                                </li>
+                                <li>
+                                    百度网盘资料目录预览：
+                                    <ul>
+                                        <li>
+                                            0-SLAM学习思维导图
+                                        </li>
+                                        <li>
+                                            0-先导课
+                                        </li>
+                                        <li>
+                                            1-第1季
+                                        </li>
+                                        <li>
+                                            测试数据集
+                                        </li>
+                                        <li>
+                                            工具软件
+                                        </li>
+                                        <li>
+                                            课件
+                                        </li>
+                                        <li>
+                                            微课
+                                        </li>
+                                        <li>
+                                            自己动手做一台SLAM导航机器人
+                                        </li>
+                                    </ul>
+                                </li>
+        
+                            </ul>
+                        </li>
+                        <li style="color:#F00">
+                            QQ技术1群：728661815（已满，请加4群）
+                        </li>
+                        <li style="color:#F00">
+                            QQ技术2群：117698356（已满，请加4群）
+                        </li>
+                        <li style="color:#F00">
+                            QQ技术3群：891252940（已满，请加4群）
+                        </li>
+                        <li style="color:#F00">
+                            QQ技术4群：985137094
+                        </li>				
+                    </ul>
+                </div>
+                <!-- 省略号 -->
+                <div id="content_1_ellipsis" style="display: block">
+                    <p class="ellipsis_style">
+                        <a href="javascript:showdiv('content_1','content_1_ellipsis','content_1_ctrl','content_1_down','content_1_up','680px');">...</a>
+                    </p>
+                </div>
+                <!-- 上拉图标 -->
+                <div id="content_1_up" class="content_up_style"></div>		
+                <!-- 展开收起链接 -->
+                <p class="content_ctrl_style">
+                    <a id="content_1_ctrl" href="javascript:showdiv('content_1','content_1_ellipsis','content_1_ctrl','content_1_down','content_1_up','680px');">展开更多</a>
+                </p>
+                <!-- 下拉图标 -->
+                <div id="content_1_down" class="content_down_style"></div>				
+            </div>
+            <!--分割线-->
+            <hr class="hr-solid">
+        
+            <!-- 课件下载 -->
+            <div style="margin: 20px">
+                <h4 style="text-align: center">课件下载</h4>
+                <div id="content_2" style="height: 680px; overflow-y: hidden">
+                    <ul>
+                        <li>
+                            课件打包下载：
+                            <ul>
+                                <li>
+                                    由于PPT课件文件较大，请前往百度网盘下载
+                                </li>
+                                <li>
+                                    百度网盘链接：
+                                    <a href="https://pan.baidu.com/s/1nHbI0mi-iM72NAcQlAU1uQ?pwd=1234" target="_blank">https://pan.baidu.com/s/1nHbI0mi-iM72NAcQlAU1uQ?pwd=1234</a>
+                                </li>
+                                <li>
+                                    提取码：1234
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 省略号 -->
+                <div id="content_2_ellipsis" style="display: block">
+                    <p class="ellipsis_style">
+                        <a href="javascript:showdiv('content_2','content_2_ellipsis','content_2_ctrl','content_2_down','content_2_up','680px');">...</a>
+                    </p>
+                </div>
+                <!-- 上拉图标 -->
+                <div id="content_2_up" class="content_up_style"></div>		
+                <!-- 展开收起链接 -->
+                <p class="content_ctrl_style">
+                    <a id="content_2_ctrl" href="javascript:showdiv('content_2','content_2_ellipsis','content_2_ctrl','content_2_down','content_2_up','680px');">展开更多</a>
+                </p>
+                <!-- 下拉图标 -->
+                <div id="content_2_down" class="content_down_style"></div>				
+            </div>
+            <!--分割线-->
+            <hr class="hr-solid">	
+        
+            <!-- 视频教程 -->
+            <div style="margin: 20px">
+                <h4 style="text-align: center">视频教程</h4>
+                <div id="content_3" style="height: 680px; overflow-y: hidden">
+                    <ul>
+                        <li>
+                            视频教程（完整版）:
+                            <ul>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=1" target="_blank">
+                                        【先导课】1.课程大纲-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=2" target="_blank">
+                                        【先导课】1.1.课程大纲-学习思维导图（上）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=3" target="_blank">
+                                        【先导课】1.2.课程大纲-学习思维导图（下）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=4" target="_blank">
+                                        【先导课】1.3.课程大纲-全书内容速览-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=5" target="_blank">
+                                        【先导课】1.4.下集预告-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=6" target="_blank">
+                                        【先导课】2.如何安装Ubuntu系统-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=7" target="_blank">
+                                        【先导课】2.1.如何安装Ubuntu系统-操作系统概念-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=8" target="_blank">
+                                        【先导课】2.2.如何安装Ubuntu系统-Linux操作系统-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=9" target="_blank">
+                                        【先导课】2.3.如何安装Ubuntu系统-Ubuntu发行版-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=10" target="_blank">
+                                        【先导课】2.4.如何安装Ubuntu系统-物理机安装Ubuntu（独立硬盘）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=11" target="_blank">
+                                        【先导课】2.5.如何安装Ubuntu系统-物理机安装Ubuntu（独立硬盘双系统）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=12" target="_blank">
+                                        【先导课】2.6.如何安装Ubuntu系统-物理机安装Ubuntu（单硬盘双系统）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=13" target="_blank">
+                                        【先导课】2.7.如何安装Ubuntu系统-虚拟机安装Ubuntu（VMware方法）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=14" target="_blank">
+                                        【先导课】2.8.如何安装Ubuntu系统-虚拟机安装Ubuntu（virtualbox方法）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=15" target="_blank">
+                                        【先导课】2.9.如何安装Ubuntu系统-Ubuntu系统基础入门-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=16" target="_blank">
+                                        【先导课】3.SLAM的应用价值与技术难点-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=17" target="_blank">
+                                        【先导课】3.1.SLAM的应用价值与技术难点-SLAM价值-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=18" target="_blank">
+                                        【先导课】3.2.SLAM的应用价值与技术难点-产业应用与生态-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=19" target="_blank">
+                                        【先导课】3.3.SLAM的应用价值与技术难点-核心技术与难点-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=20" target="_blank">
+                                        【第1季】0.第0章_SLAM发展综述-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=21" target="_blank">
+                                        【第1季】0.1.第0章_SLAM发展综述-梳理定位导航技术-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=22" target="_blank">
+                                        【第1季】0.2.第0章_SLAM发展综述-揭秘SLAM技术路线-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=23" target="_blank">
+                                        【第1季】0.3.第0章_SLAM发展综述-展望SLAM未来趋势-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=24" target="_blank">
+                                        【第1季】1.第1章_ROS入门必备知识-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=25" target="_blank">
+                                        【第1季】1.1.第1章_ROS入门必备知识-ROS简介-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=26" target="_blank">
+                                        【第1季】1.2.第1章_ROS入门必备知识-ROS开发环境搭建-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=27" target="_blank">
+                                        【第1季】1.3.第1章_ROS入门必备知识-ROS系统架构-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=28" target="_blank">
+                                        【第1季】1.4.第1章_ROS入门必备知识-ROS调试工具-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=29" target="_blank">
+                                        【第1季】1.5.第1章_ROS入门必备知识-ROS节点通信-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=30" target="_blank">
+                                        【第1季】1.6.第1章_ROS入门必备知识-ROS其他重要概念-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=31" target="_blank">
+                                        【第1季】1.7.第1章_ROS入门必备知识-ROS2.0展望-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=32" target="_blank">
+                                        【第1季】2.第2章_C++编程范式-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=33" target="_blank">
+                                        【第1季】2.1.第2章_C++编程范式-C++工程的组织结构-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=34" target="_blank">
+                                        【第1季】2.2.第2章_C++编程范式-C++代码的编译方法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=35" target="_blank">
+                                        【第1季】2.3.第2章_C++编程范式-C++编程风格指南-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=36" target="_blank">
+                                        【第1季】3.第3章_OpenCV图像处理-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=37" target="_blank">
+                                        【第1季】3.1.第3章_OpenCV图像处理_认识图像数据-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=38" target="_blank">
+                                        【第1季】3.2.第3章_OpenCV图像处理_图像滤波-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=39" target="_blank">
+                                        【第1季】3.3.第3章_OpenCV图像处理_图像变换-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=40" target="_blank">
+                                        【第1季】3.4.第3章_OpenCV图像处理_图像特征点提取-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=41" target="_blank">
+                                        【第1季】3.5.第3章_OpenCV图像处理_拓展-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=42" target="_blank">
+                                        【第1季】4.第4章_机器人传感器-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=43" target="_blank">
+                                        【第1季】4.1.第4章_机器人传感器_惯性测量单元-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=44" target="_blank">
+                                        【第1季】4.2.第4章_机器人传感器_激光雷达-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=45" target="_blank">
+                                        【第1季】4.3.第4章_机器人传感器_相机-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=46" target="_blank">
+                                        【第1季】4.4.第4章_机器人传感器_带编码器的减速电机-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=47" target="_blank">
+                                        【第1季】5.第5章_机器人主机-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=48" target="_blank">
+                                        【第1季】5.1.第5章_机器人主机_X86与ARM主机对比-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=49" target="_blank">
+                                        【第1季】5.2.第5章_机器人主机_ARM主机树莓派3B+-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=50" target="_blank">
+                                        【第1季】5.3.第5章_机器人主机_ARM主机RK3399-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=51" target="_blank">
+                                        【第1季】5.4.第5章_机器人主机_ARM主机Jetson-tx2-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=52" target="_blank">
+                                        【第1季】5.5.第5章_机器人主机_分布式架构主机-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=53" target="_blank">
+                                        【第1季】6.第6章_机器人底盘-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=54" target="_blank">
+                                        【第1季】6.1.第6章_机器人底盘_底盘运动学模型-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=55" target="_blank">
+                                        【第1季】6.2.第6章_机器人底盘_底盘性能指标-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=56" target="_blank">
+                                        【第1季】6.3.第6章_机器人底盘_典型机器人底盘搭建-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=57" target="_blank">
+                                        【第1季】7.第7章_SLAM中的数学基础-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=58" target="_blank">
+                                        【第1季】7.1.第7章_SLAM中的数学基础_SLAM发展简史-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=59" target="_blank">
+                                        【第1季】7.2.第7章_SLAM中的数学基础_SLAM中的概率理论-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=60" target="_blank">
+                                        【第1季】7.3.第7章_SLAM中的数学基础_估计理论-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=61" target="_blank">
+                                        【第1季】7.4.第7章_SLAM中的数学基础_基于贝叶斯网络的状态估计-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=62" target="_blank">
+                                        【第1季】7.5.第7章_SLAM中的数学基础_基于因子图的状态估计-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=63" target="_blank">
+                                        【第1季】7.6.第7章_SLAM中的数学基础_典型SLAM算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=64" target="_blank">
+                                        【第1季】7.7.第7章_SLAM中的数学基础_SFM、BA和SLAM比较-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=65" target="_blank">
+                                        【第1季】8.第8章_激光SLAM系统-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=66" target="_blank">
+                                        【第1季】8.1.第8章_激光SLAM系统_Gmapping算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=67" target="_blank">
+                                        【第1季】8.2.第8章_激光SLAM系统_Cartographer算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=68" target="_blank">
+                                        【第1季】8.3.第8章_激光SLAM系统_LOAM算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=69" target="_blank">
+                                        【第1季】9.第9章_视觉SLAM系统-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=70" target="_blank">
+                                        【第1季】9.1.第9章_视觉SLAM系统_ORB-SLAM2算法（上）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=71" target="_blank">
+                                        【第1季】9.1.第9章_视觉SLAM系统_ORB-SLAM2算法（下）-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=72" target="_blank">
+                                        【第1季】9.2.第9章_视觉SLAM系统_LSD-SLAM算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=73" target="_blank">
+                                        【第1季】9.3.第9章_视觉SLAM系统_SVO算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=74" target="_blank">
+                                        【第1季】10.第10章_其他SLAM系统-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=75" target="_blank">
+                                        【第1季】10.1.第10章_其他SLAM系统_RTABMAP算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=76" target="_blank">
+                                        【第1季】10.2.第10章_其他SLAM系统_VINS算法-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=77" target="_blank">
+                                        【第1季】10.3.第10章_其他SLAM系统_机器学习与SLAM-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=78" target="_blank">
+                                        【第1季】11.第11章_自主导航中的数学基础-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=79" target="_blank">
+                                        【第1季】11.1.第11章_自主导航中的数学基础_自主导航-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=80" target="_blank">
+                                        【第1季】11.2.第11章_自主导航中的数学基础_环境感知-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=81" target="_blank">
+                                        【第1季】11.3.第11章_自主导航中的数学基础_路径规划-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=82" target="_blank">
+                                        【第1季】11.4.第11章_自主导航中的数学基础_运动控制-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jS4y1a7Lz?p=83" target="_blank">
+                                        【第1季】11.5.第11章_自主导航中的数学基础_强化学习与自主导航-视频讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://space.bilibili.com/66815220" target="_blank">
+                                        更多精彩视频，持续更新中......
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            视频教程（精华内容节选）:
+                            <ul>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1SR4y1M74V" target="_blank">
+                                        一本书打通机器人SLAM导航中的软件技术、硬件技术、数学理论、工程落地等一系列问题
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV14A4y1f7Vj" target="_blank">
+                                        【史上最全】一图读懂机器人SLAM核心技术
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1oA4y1f7rR" target="_blank">
+                                        【史上最干】计算机组成原理一口气学完+突然想做台光刻机玩玩
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1d541197wp" target="_blank">
+                                        【硬核解读】电脑为什么又叫计算机？
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Rt4y1x7ta" target="_blank">
+                                        【死磕Ubuntu系统安装】物理机+独立硬盘
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1UY4y1z7rd" target="_blank">
+                                        【死磕Ubuntu系统安装】物理机+独立硬盘+双系统
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1u5411R7XX" target="_blank">
+                                        【死磕Ubuntu系统安装】物理机+单硬盘+双系统
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV16A4y1f79o" target="_blank">
+                                        【死磕Ubuntu系统安装】虚拟机+vmware
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ZR4y1c79i" target="_blank">
+                                        【死磕Ubuntu系统安装】虚拟机+virtualbox
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1G34y17733" target="_blank">
+                                        【SLAM技术应用】有运动的地方就有SLAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1gY4y1z7tX" target="_blank">
+                                        【3分钟】快速了解SLAM算法的本质
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Aa41177qS" target="_blank">
+                                        【一看就懂】SLAM算法原理通俗解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1v54y1o7CN" target="_blank">
+                                        【SLAM算法学习】螺旋上升式学习过程
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1q3411w7sZ" target="_blank">
+                                        【通俗易懂】SLAM实现导航的完整过程演示
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1gF411F7bn" target="_blank">
+                                        【本质揭秘】超声波SLAM原理解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1KG411p7Nf" target="_blank">
+                                        【机器人操作系统】ROS究竟是个啥
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Pe4y1d7DQ" target="_blank">
+                                        【机器人操作系统】ROS本质上就是一个分布式通信框架
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Da411S7Hr" target="_blank">
+                                        【机器人操作系统】学会ROS就学会机器人开发了吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1De4y1X7r2" target="_blank">
+                                        【机器人操作系统】全面解读ROS系统组织架构
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV13t4y1t7SA" target="_blank">
+                                        【机器人操作系统】深入分析ROS的通信原理
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1t3411F7Ux" target="_blank">
+                                        【机器人操作系统】ROS与ROS2.0区别是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV15D4y167Hv" target="_blank">
+                                        C++、ROS和SLAM是什么关系
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1rd4y1d7dn" target="_blank">
+                                        SLAM大都用C++编写，为什么不用Python呢
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1fB4y1374r" target="_blank">
+                                        SLAM算法实现为何基于ROS接口
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1AN4y1A7jL" target="_blank">
+                                        【保护眼睛】眼睛是心灵的窗户，机器人的心灵之窗呢
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Ft4y1c7MR" target="_blank">
+                                        【机器人关键技术】机器人、图像处理和OpenCV究竟啥关系
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1eg411Y7iA" target="_blank">
+                                        【机器人关键技术】机器人为什么离不开图像处理技术
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ee411j7du" target="_blank">
+                                        【机器人关键技术】利用摄像头定位、建图、避障的原理解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV19V4y157ZT" target="_blank">
+                                        【鸡学带头人】图像算法工程师，但鸡你太美
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Ae4y1q7HP" target="_blank">
+                                        除了用OpenCV还有哪些图像处理库
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1yR4y197Zt" target="_blank">
+                                        图像滤波的原理终于有人给讲明白了
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1eR4y197rK" target="_blank">
+                                        图像变换，其实我们每天在用
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1gB4y1j7my" target="_blank">
+                                        图像ORB特征提取速度为什么快
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1TP41177yu" target="_blank">
+                                        OpenCV图像处理与PCL点云处理
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ox4y1G7Z4" target="_blank">
+                                        搞机器人开发需要懂硬件吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1gM411F74S" target="_blank">
+                                        【3分钟快速入门】机器人传感器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1aM411F7DN" target="_blank">
+                                        IMU究竟是个啥
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1D24y1a7V2" target="_blank">
+                                        机器人中的IMU有什么用
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1qY4y1f7uv" target="_blank">
+                                        IMU如何测加速度
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1XD4y1p7BV" target="_blank">
+                                        IMU如何测角速度
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1FK411C7BM" target="_blank">
+                                        IMU如何测磁力
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1214y1u741" target="_blank">
+                                        IMU的数据如何采集
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV13d4y177rZ" target="_blank">
+                                        IMU参数标定终于有人讲清楚了
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1AD4y1W7Ks" target="_blank">
+                                        IMU的数据为什么要滤波
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jG4y117Fp" target="_blank">
+                                        多传感器融合的本质
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18Y411y75e" target="_blank">
+                                        【浅显易懂】卡尔曼滤波原理解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ZY4y1f73d" target="_blank">
+                                        激光雷达是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1DM411b7zJ" target="_blank">
+                                        激光雷达工作原理解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1FT411m7XD" target="_blank">
+                                        激光雷达畸变校准
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1C14y1T79f" target="_blank">
+                                        机器人中的摄像头传感器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1B24y1Y7CP" target="_blank">
+                                        【全网最详细】摄像头原理分析
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV17D4y1H7N2" target="_blank">
+                                        单目相机如何标定
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1m8411N7EA" target="_blank">
+                                        【全网最详细】双目摄像头原理分析
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ex4y137jK" target="_blank">
+                                        双目相机如何读取图像数据
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Y24y1Y7vE" target="_blank">
+                                        双目相机如何标定
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1LG4y1C7z5" target="_blank">
+                                        【全网最详细】RGB-D相机原理分析
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1H24y1Y7hr" target="_blank">
+                                        机器人SLAM为什么需要编码器
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1i14y1T7P4" target="_blank">
+                                        编码减速电机是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ss4y1M7Ji" target="_blank">
+                                        机器人专家居然是小黑子
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ao4y1G7mX" target="_blank">
+                                        计算机究竟是怎么工作的
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Lm4y187pr" target="_blank">
+                                        【2023年】电脑常识能力测验
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV15T411b7pL" target="_blank">
+                                        搞机器人开发如何选电脑主机
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV12V4y1z7Rz" target="_blank">
+                                        【深入浅出】嵌入式终于有人给讲清楚了
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1kX4y1C7VL" target="_blank">
+                                        树莓派是什么替代方案有哪些
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1oV4y1z7EY" target="_blank">
+                                        机器人分布式主机是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1114y1r7Vr" target="_blank">
+                                        机器人底盘为什么是核心技术
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1994y1W7vM" target="_blank">
+                                        机器人底盘开发很简单吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1oV411P7WS" target="_blank">
+                                        机器人底盘运动学模型通俗解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1DP41187Mp" target="_blank">
+                                        机器人底盘两轮差速模型演变过程
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Wk4y1w7rg" target="_blank">
+                                        机器人底盘两轮差速模型详解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Uh4y1Y7ZP" target="_blank">
+                                        机器人轮式里程计究竟是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1vh4y1Y7ch" target="_blank">
+                                        机器人底盘四轮差速模型详解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1oh4y1w7Mu" target="_blank">
+                                        机器人SLAM导航为什么需要轨迹跟踪
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1b94y1W7rs" target="_blank">
+                                        机器人底盘阿克曼模型详解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1f94y1W7AW" target="_blank">
+                                        机器人底盘全向模型详解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV11H4y1D7Zq" target="_blank">
+                                        自研机器人底盘载重能力如何选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1SV411P7iu" target="_blank">
+                                        自研机器人底盘动力性能如何选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1J14y1r74V" target="_blank">
+                                        自研机器人底盘控制精度如何选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1bp4y1A7WJ" target="_blank">
+                                        自研机器人底盘里程计精度如何选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Jz4y157A8" target="_blank">
+                                        【自己搭建机器人】运动学模型选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Jk4y1w7sC" target="_blank">
+                                        【自己搭建机器人】传感器选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV11F411D7tt" target="_blank">
+                                        【自己搭建机器人】主机选择
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1zV411P7qX" target="_blank">
+                                        【自己搭建机器人】底盘硬件系统搭建
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV16z4y157ir" target="_blank">
+                                        【自己搭建机器人】底盘软件系统搭建
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1AN4y1z7XP" target="_blank">
+                                        SLAM算法你真的了解吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ue411B7Ff" target="_blank">
+                                        搞SLAM算法还有前途吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV17G411k75T" target="_blank">
+                                        SLAM技术是伪需求吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Vp4y1d7yL" target="_blank">
+                                        SLAM算法快速入门
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Ce411r7cj" target="_blank">
+                                        SLAM问题的起源你不一定知道
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1sp4y1Z75W" target="_blank">
+                                        SLAM算法的本质数据关联
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1E94y1w7TU" target="_blank">
+                                        SLAM算法为什么要考虑收敛性
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Ei4y1Y7PW" target="_blank">
+                                        SLAM算法基本理论梳理
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1pi4y1Y7Bj" target="_blank">
+                                        SLAM算法学习方法
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1YN4y1z7tU" target="_blank">
+                                        SLAM算法的核心概率理论
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1fC4y1q788" target="_blank">
+                                        为什么SLAM是状态估计问题
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1tc411C7if" target="_blank">
+                                        SLAM中的概率运动模型
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1mc411C7bS" target="_blank">
+                                        SLAM中的概率观测模型
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1y64y1H7Qv" target="_blank">
+                                        SLAM算法的底层框架概率图模型
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV19C4y1K7Up" target="_blank">
+                                        最小方差无偏估计
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1eC4y1T7Qf" target="_blank">
+                                        最大似然、最小二乘和贝叶斯估计的区别
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1aN4y1x7Wi" target="_blank">
+                                        经典估计与贝叶斯估计
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV12w411G7tX" target="_blank">
+                                        贝叶斯估计
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1HN4y1B7mg" target="_blank">
+                                        卡尔曼滤波的本质
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1u94y1g79R" target="_blank">
+                                        粒子滤波的本质
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1D94y1u7Me" target="_blank">
+                                        最小二乘估计
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1WQ4y1J7Yy" target="_blank">
+                                        最小二乘问题直接求解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Dw411g7nE" target="_blank">
+                                        最小二乘问题优化求解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1eN4y1B7D5" target="_blank">
+                                        SLAM算法有哪些
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1vN4y1B7LV" target="_blank">
+                                        SFM、BA和SLAM比较
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jT421S7yL" target="_blank">
+                                        【新手必备】SLAM学习路线图
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jf421d7MZ" target="_blank">
+                                        先学激光SLAM还是先学视觉SLAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ps42137fT" target="_blank">
+                                        激光SLAM算法有哪些
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1kr42157Y9" target="_blank">
+                                        SLAM算法源码正确阅读方式
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV14r42157AK" target="_blank">
+                                        搞SLAM开发不比在非洲拉香蕉简单
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Sf42197m6" target="_blank">
+                                        【激光SLAM专题】GMapping原理通俗易懂
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1sm421T7ZK" target="_blank">
+                                        【激光SLAM专题】GMapping代码如何学习
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Vm421N7zm" target="_blank">
+                                        【激光SLAM专题】GMapping如何运行
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1yD42137qj" target="_blank">
+                                        【激光SLAM专题】Cartographer原理通俗易懂
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Yz421a7ZF" target="_blank">
+                                        【激光SLAM专题】Cartographer代码如何学习
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1br421L7bi" target="_blank">
+                                        【激光SLAM专题】Cartographer如何运行
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1hw4m1S7ZE" target="_blank">
+                                        【激光SLAM专题】LOAM原理通俗易懂
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Nw4m1q7nm" target="_blank">
+                                        【激光SLAM专题】LOAM代码如何学习
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1s7421R7aF" target="_blank">
+                                        【激光SLAM专题】LOAM如何运行
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18opxegEUP" target="_blank">
+                                        ORB-SLAM2究竟是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV14ppxeYE3X" target="_blank">
+                                        视觉SLAM算法入门必备基础知识
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1HYpxedEPi" target="_blank">
+                                        视觉SLAM算法特征点法详解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1zt4vedEEx" target="_blank">
+                                        【3D数学】认识欧拉角
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV13w4veCESZ" target="_blank">
+                                        【3D数学】欧拉角万向节死锁与插值
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Yx4Be9EEd" target="_blank">
+                                        【3D数学】欧拉角旋转矩阵四元数相互转换
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1qv4qeZEe4" target="_blank">
+                                        SLAM中的位姿估计量为什么用转移矩阵T表示
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1xy46eJE4M" target="_blank">
+                                        搞SLAM算法为什么要学李群和李代数
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1cd4keSEoN" target="_blank">
+                                        视觉SLAM的本质多视图几何
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1dM4Ce6E78" target="_blank">
+                                        ORB-SLAM2系统框架解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Kf4jeQEa3" target="_blank">
+                                        ORB-SLAM2源码解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1fE4Je1EGS" target="_blank">
+                                        ORB-SLAM2实操难吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1c54JeJELE" target="_blank">
+                                        ORB-SLAM3有必要学吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Xv4HekEec" target="_blank">
+                                        视觉SLAM特征点法与直接法的区别是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Rb4He2EXB" target="_blank">
+                                        LSD-SLAM系统框架解读
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Rq4xeoEek" target="_blank">
+                                        视觉SLAM半直接法是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1sF2XY2EgG" target="_blank">
+                                        除了激光SLAM和视觉SLAM还有哪些研究方向
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1qe2QYeEZN" target="_blank">
+                                        听劝不要轻易入坑SLAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1xV2BYrE4C" target="_blank">
+                                        为什么需要多传感器融合
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1M2mgYuEZU" target="_blank">
+                                        机器人多传感器融合
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1bamVYLE7z" target="_blank">
+                                        RTABMAP算法激光视觉融合SLAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1yZmGYBE8d" target="_blank">
+                                        SLAM算法为什么需要内存管理机制
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1dCmjYeEJb" target="_blank">
+                                        轮式里程计激光里程计视觉里程计区别是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1NsmjYmEN9" target="_blank">
+                                        SLAM为什么需要闭环检测
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1GGmEYeEQj" target="_blank">
+                                        SLAM为什么需要IMU
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1b1mHYBEQL" target="_blank">
+                                        视觉惯导融合SLAM内外参标定是关键
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV16pmHYWEaL" target="_blank">
+                                        多传感器融合SLAM松耦合与紧耦合
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1FkmnYQEW1" target="_blank">
+                                        VINS算法视觉惯导融合SLAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1FrmnYpE8Z" target="_blank">
+                                        SLAM系统的2种设计范式
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV19RmnYkEC2" target="_blank">
+                                        SLAM为什么需要机器学习
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV13JmnYqEV9" target="_blank">
+                                        机器学习与神经网络区别是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1XjmnYzEpy" target="_blank">
+                                        机器学习与SLAM怎么结合
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV17HqhYSErm" target="_blank">
+                                        自主导航是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18dq8YqEvU" target="_blank">
+                                        自主导航很难吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1SnqaYuEHB" target="_blank">
+                                        机器人自主导航如何学习
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1aFqvYnEuu" target="_blank">
+                                        如何看待导航技术的发展
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1qGBgYFEo1" target="_blank">
+                                        人和动物也通过SLAM导航吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV181BuYmEqe" target="_blank">
+                                        自主导航问题的本质
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1kZBEY8EiW" target="_blank">
+                                        自主导航工程化体系结构
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Z1qRYnE8k" target="_blank">
+                                        机器人环境感知是什么
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1RZqfYZEfU" target="_blank">
+                                        机器人实时定位如何实现
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1fDqfYYErS" target="_blank">
+                                        搞SLAM是不是没有前途了
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV16MqfYAEVY" target="_blank">
+                                        机器人导航为什么用栅格地图
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV15PBwYYEwc" target="_blank">
+                                        机器人导航语义理解与语义地图
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1q3kGYGE54" target="_blank">
+                                        路径规划只用于机器人导航吗
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1MDkVYvE98" target="_blank">
+                                        机器人路径规划原理解析
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1jPkJYcEbT" target="_blank">
+                                        机器人路径规划添加约束条件
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV19wkPYjEz2" target="_blank">
+                                        扫地机器人覆盖的路径规划算法
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV11AkDYwETt" target="_blank">
+                                        机器人SLAM导航究竟如何实现
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Z5C3Y5ErF" target="_blank">
+                                        机器人自主导航基于PID的运动控制
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1VTkQYEE25" target="_blank">
+                                        机器人自主导航基于MPC的运动控制
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1NxkQYKEow" target="_blank">
+                                        机器人自主导航基于强化学习的运动控制
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1TnkQYzEqf" target="_blank">
+                                        强化学习与人工智能是什么关系
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1arkoY8ELS" target="_blank">
+                                        强化学习理论通俗讲解
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1WwCFY9Eb1" target="_blank">
+                                        强化学习与自主导航
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://space.bilibili.com/66815220" target="_blank">
+                                        更多精彩视频......
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 省略号 -->
+                <div id="content_3_ellipsis" style="display: block">
+                    <p class="ellipsis_style">
+                        <a href="javascript:showdiv('content_3','content_3_ellipsis','content_3_ctrl','content_3_down','content_3_up','680px');">...</a>
+                    </p>
+                </div>
+                <!-- 上拉图标 -->
+                <div id="content_3_up" class="content_up_style"></div>		
+                <!-- 展开收起链接 -->
+                <p class="content_ctrl_style">
+                    <a id="content_3_ctrl" href="javascript:showdiv('content_3','content_3_ellipsis','content_3_ctrl','content_3_down','content_3_up','680px');">展开更多</a>
+                </p>
+                <!-- 下拉图标 -->
+                <div id="content_3_down" class="content_down_style"></div>				
+            </div>
+            <!--分割线-->
+            <hr class="hr-solid">	
+        
+            <!-- 知乎专栏：《机器人SLAM导航核心技术与实战》笔记 -->
+            <div style="margin: 20px">
+                <h4 style="text-align: center">知乎专栏：《机器人SLAM导航核心技术与实战》笔记</h4>
+                <div id="content_4" style="height: 680px; overflow-y: hidden">
+                    <ul>
+                        <li>
+                            知乎专栏地址：
+                            <a href="https://www.zhihu.com/column/c_1363309952996577280" target="_blank">https://www.zhihu.com/column/c_1363309952996577280</a>
+                        </li>
+                        <li>
+                            文章教程:
+                            <ul>
+                                <li>
+                                    <a href="https://zhuanlan.zhihu.com/p/487094400" target="_blank">《机器人SLAM导航核心技术与实战》快速导读</a>
+                                </li>
+                                <li>
+                                    <a href="https://zhuanlan.zhihu.com/p/500155105" target="_blank">SLAM与AI的强强联合</a>
+                                </li>
+                                <li>
+                                    <a href="https://zhuanlan.zhihu.com/p/500168370" target="_blank">学习SLAM感觉很难的原因是什么？</a>
+                                </li>
+                                <li>
+                                    <a href="https://zhuanlan.zhihu.com/p/500184791" target="_blank">没想到SLAM的应用范围如此广泛</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.zhihu.com/column/c_1363309952996577280" target="_blank">精彩内容持续更新中......</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 省略号 -->
+                <div id="content_4_ellipsis" style="display: block">
+                    <p class="ellipsis_style">
+                        <a href="javascript:showdiv('content_4','content_4_ellipsis','content_4_ctrl','content_4_down','content_4_up','680px');">...</a>
+                    </p>
+                </div>
+                <!-- 上拉图标 -->
+                <div id="content_4_up" class="content_up_style"></div>		
+                <!-- 展开收起链接 -->
+                <p class="content_ctrl_style">
+                    <a id="content_4_ctrl" href="javascript:showdiv('content_4','content_4_ellipsis','content_4_ctrl','content_4_down','content_4_up','680px');">展开更多</a>
+                </p>
+                <!-- 下拉图标 -->
+                <div id="content_4_down" class="content_down_style"></div>				
+            </div>
+            <!--分割线-->
+            <hr class="hr-solid">
+        
+            <!-- 知乎专栏：自己动手做一台SLAM导航机器人 -->
+            <div style="margin: 20px">
+                <h4 style="text-align: center">知乎专栏：自己动手做一台SLAM导航机器人</h4>
+                <div id="content_5" style="height: 680px; overflow-y: hidden">
+                    <ul>
+                        <li>
+                            知乎专栏地址：
+                            <a href="https://www.zhihu.com/column/c_1084087088789569536" target="_blank">https://www.zhihu.com/column/c_1084087088789569536</a>
+                        </li>
+                        <li>
+                            源码GitHub：
+                            <a href="https://github.com/xiihoo/DIY_A_SLAM_Navigation_Robot" target="_blank">https://github.com/xiihoo/DIY_A_SLAM_Navigation_Robot</a>
+                        </li>
+                        <li>
+                            源码Gitee（访问更快）：
+                            <a href="https://gitee.com/xiihoo-robot/DIY_A_SLAM_Navigation_Robot" target="_blank">https://gitee.com/xiihoo-robot/DIY_A_SLAM_Navigation_Robot</a>
+                        </li>
+                        <li>
+                            视频教程：
+                            <ul>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Nb411M7ky" target="_blank">miiboo点餐机器人APP演示_完整版</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1ob411L7ux" target="_blank">miiboo机器人_组装教程</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1i4411U7bt" target="_blank">miiboo_30s</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV1Bv411B77R" target="_blank">miiboo机器人SLAM导航功能演示</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=1" target="_blank">1_用户手册内容速览</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=2" target="_blank">2_树莓派连接wifi</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=3" target="_blank">3_远程SSH登录机器人</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=4" target="_blank">4_ROS网络通信</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=5" target="_blank">5_SLAM建图</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=6" target="_blank">6_自主导航</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.bilibili.com/video/BV18t411c7GL?p=7" target="_blank">7_语音交互</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 省略号 -->
+                <div id="content_5_ellipsis" style="display: block">
+                    <p class="ellipsis_style">
+                        <a href="javascript:showdiv('content_5','content_5_ellipsis','content_5_ctrl','content_5_down','content_5_up','680px');">...</a>
+                    </p>
+                </div>
+                <!-- 上拉图标 -->
+                <div id="content_5_up" class="content_up_style"></div>		
+                <!-- 展开收起链接 -->
+                <p class="content_ctrl_style">
+                    <a id="content_5_ctrl" href="javascript:showdiv('content_5','content_5_ellipsis','content_5_ctrl','content_5_down','content_5_up','680px');">展开更多</a>
+                </p>
+                <!-- 下拉图标 -->
+                <div id="content_5_down" class="content_down_style"></div>				
+            </div>
+        </div>
     </div>
     <!-- 侧边 -->
     <div id="side_style">
@@ -118,7 +1750,7 @@
        	    <p style="font-size: 14px;color: #4E4E4E;margin: 10px;text-align: center">
             	请加微信：robot4xiihoo
                 <br/>
-                <img width="100" height="100" src="http://xiihoo.com/static/image/xiihoo%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%90%8D%E7%89%87.jpg"/>
+                <img width="100" height="100" src="static/image/xiihoo%E5%BE%AE%E4%BF%A1%E4%BA%8C%E7%BB%B4%E7%A0%81%E5%90%8D%E7%89%87.jpg"/>
             </p>
         </div>
         <div id="side_2_style">
@@ -126,7 +1758,7 @@
        	    <p style="font-size: 14px;color: #4E4E4E;margin: 10px;text-align: center">
             	打开微信扫码关注
                 <br/>
-                <img width="100" height="100" src="http://xiihoo.com/static/image/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"/>
+                <img width="100" height="100" src="static/image/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E4%BA%8C%E7%BB%B4%E7%A0%81.jpg"/>
             </p>
         </div>
         <div id="side_2_style">
@@ -134,7 +1766,7 @@
        	    <p style="font-size: 14px;color: #4E4E4E;margin: 10px;text-align: center">
                 用手机淘宝扫码进店
                 <br/>
-                <img width="100" height="100" src="http://xiihoo.com/static/image/%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/>
+                <img width="100" height="100" src="static/image/%E6%B7%98%E5%AE%9D%E5%BA%97%E9%93%BA%E4%BA%8C%E7%BB%B4%E7%A0%81.png"/>
                 <br/>
                 <a href="https://xiihoo.taobao.com" target="_blank">xiihoo.taobao.com</a>
             </p>
@@ -150,7 +1782,7 @@
 
 <!-- 底部内容 -->
 <div id="bottom_style">
-	<a href="https://beian.miit.gov.cn/" style="color: #999" target="_blank">粤ICP备2021163921号</a>
+	<a href="http://www.xiihoo.com" style="color: #999" target="_blank">到底啦，点击返回顶部</a>
 </div>
 </body>
 </html>

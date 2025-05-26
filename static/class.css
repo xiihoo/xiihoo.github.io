@@ -1,0 +1,193 @@
+/* 全局样式 */
+body {
+	/*清除浏览器默认边距*/
+    margin: 0px;
+	padding: 0px;
+	/*全局背景：浅灰*/
+	background-color: #F2F2F2;
+	}
+a {
+	text-decoration: none !important;
+   	cursor: pointer !important;
+   	outline: none !important;
+	color: #70AD47;
+	}
+a:hover {
+	color: #FEBF01;
+	}
+img {
+	border: none;
+	}		
+	
+
+/* 顶部样式 */
+#header_style {
+	height: 50px;
+    width: 100%;
+	position: fixed;
+    top: 0px;
+    background-color: #333;
+	z-index: 999;
+	}
+#header_container_style {
+	width: 1200px;
+   	margin: auto;/*居中*/
+   	position: relative;
+	}
+#logo_style {
+	float: left;
+   	height: 50px;
+   	overflow: hidden;
+	margin-right: 20px;
+	}
+#menu_style {
+	float: left;
+	}
+#menu_style ul {
+	list-style: none;
+	margin: 0px;
+   	padding: 0px;
+	display: block;
+	}
+#menu_style ul li {
+	list-style: none;
+	float: left;
+	margin-left: 100px;
+   	height: 40px;
+   	line-height: 50px;
+   	font-size: 16px;
+	font-weight: bold;
+   	position: relative;
+	display: list-item;
+	}
+#menu_style ul li.active {
+	border-bottom: 3px solid #70AD47;
+	}
+
+
+/*顶部占位样式*/
+#header_place_style {
+	height: 50px;
+    width: 100%;
+	}
+
+
+/* 中部样式 */
+#middle_container_style {
+   	width: 1200px;
+   	/*上下边距10px*/
+	margin-top:20px;
+	margin-bottom:20px;
+	/*左右居中*/
+	margin-left: auto;
+	margin-right: auto;
+	/*显示浮动子元素大小*/
+	overflow:hidden;
+	/*边框*/
+	/*border:1px solid #888;*/
+	}
+#main_style {/* 正文样式 */
+	float: left;
+	width: 900px;
+	/*border: 1px solid #888;*/
+	}
+#banner_style {
+	float: left;
+	width: 100%;
+	/*height: 100px;*/
+	margin-bottom:20px;
+	background-color: #FFF;
+	/*border: 1px solid #888;*/
+	}
+#content_style {
+	float: left;
+	width: 100%;
+	background-color: #FFF;
+	/*border: 1px solid #888;*/
+	}
+#content_style ul li {
+	margin: 10px;
+	}
+#side_style{/* 侧边样式 */
+   	float: right;
+   	width: 280px;
+    /*border: 1px solid #888;*/
+	}
+#side_1_style {
+	float: left;
+	width: 100%;
+	background-color: #FFF;
+	text-align: center;/*文字居中*/
+	/*border: 1px solid #888;*/
+	}
+#side_1_style .hr-solid {/*实线分割线*/
+    border: 0;
+    border-top: 1px solid #d0d0d5;
+	}
+#side_1_style .hr-edge-weak {/*两头虚的分隔线*/
+    border: 0;
+    padding-top: 1px;
+    background: linear-gradient(to right, transparent, #d0d0d5, transparent);
+	}
+#side_2_style {
+	float: left;
+	width: 100%;
+	margin-top:20px;
+
+	background-color: #FFF;
+	/*border: 1px solid #888;*/
+	}
+
+
+/* 底部样式 */
+#bottom_style {
+	height: 50px;
+	width: 100%;
+	position: relative;
+	/*background-color: #333;*/
+	text-align: center;
+	color: #4E4E4E;
+	margin: 50px auto 20px auto;
+	}
+
+
+
+/* 公共样式 */
+.ellipsis_style {/*省略号*/
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 20px;
+	}
+.content_up_style {/*上拉图标*/
+	display: none;
+	opacity: 1.0;
+	margin-top: -15px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 0px;
+	height: 0px;
+	border: 15px solid #FFF;
+	border-bottom-color: #cacaca;
+	}
+.content_down_style {/*下拉图标*/
+	display: block;
+	opacity: 1.0;
+	margin-top: 0px;
+	margin-bottom: -15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 0px;
+	height: 0px;
+	border: 15px solid #FFF;
+	border-top-color: #cacaca;
+	}
+.content_ctrl_style {/*展开收起链接*/
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	}
